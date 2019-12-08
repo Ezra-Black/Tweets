@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		8308D3AB239CA8F100694C0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308D3AA239CA8F100694C0B /* AppDelegate.swift */; };
 		8308D3AD239CA8F100694C0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308D3AC239CA8F100694C0B /* SceneDelegate.swift */; };
-		8308D3AF239CA8F100694C0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308D3AE239CA8F100694C0B /* ViewController.swift */; };
 		8308D3B2239CA8F100694C0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8308D3B0239CA8F100694C0B /* Main.storyboard */; };
 		8308D3B4239CA90200694C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8308D3B3239CA90200694C0B /* Assets.xcassets */; };
 		8308D3B7239CA90200694C0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8308D3B5239CA90200694C0B /* LaunchScreen.storyboard */; };
+		8308D3C0239CA9B900694C0B /* TweetFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308D3BF239CA9B900694C0B /* TweetFeedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8308D3A7239CA8F100694C0B /* Tweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8308D3AA239CA8F100694C0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8308D3AC239CA8F100694C0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8308D3AE239CA8F100694C0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8308D3B1239CA8F100694C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8308D3B3239CA90200694C0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8308D3B6239CA90200694C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8308D3B8239CA90200694C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8308D3BF239CA9B900694C0B /* TweetFeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFeedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,31 @@
 		8308D3A9239CA8F100694C0B /* Tweets */ = {
 			isa = PBXGroup;
 			children = (
+				8308D3C1239CA9F200694C0B /* Networking */,
+				8308D3BE239CA99B00694C0B /* ViewControllers */,
 				8308D3AA239CA8F100694C0B /* AppDelegate.swift */,
 				8308D3AC239CA8F100694C0B /* SceneDelegate.swift */,
-				8308D3AE239CA8F100694C0B /* ViewController.swift */,
 				8308D3B0239CA8F100694C0B /* Main.storyboard */,
 				8308D3B3239CA90200694C0B /* Assets.xcassets */,
 				8308D3B5239CA90200694C0B /* LaunchScreen.storyboard */,
 				8308D3B8239CA90200694C0B /* Info.plist */,
 			);
 			path = Tweets;
+			sourceTree = "<group>";
+		};
+		8308D3BE239CA99B00694C0B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8308D3BF239CA9B900694C0B /* TweetFeedTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8308D3C1239CA9F200694C0B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8308D3AF239CA8F100694C0B /* ViewController.swift in Sources */,
 				8308D3AB239CA8F100694C0B /* AppDelegate.swift in Sources */,
 				8308D3AD239CA8F100694C0B /* SceneDelegate.swift in Sources */,
+				8308D3C0239CA9B900694C0B /* TweetFeedTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
